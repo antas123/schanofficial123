@@ -1,0 +1,205 @@
+html{
+  font-size: 62.5%;
+}
+
+
+body{
+  margin: 0;
+  text-align: center;
+}
+
+#home{
+  color: #8D8DAA;
+  text-decoration: underline;
+}
+.head{
+  padding:3rem;
+  height: 70rem;
+  background-image: url("../images/bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+   background-size: cover;
+   background-attachment: fixed;
+   color: #DDDDDD;
+  font-family: 'Jost', sans-serif;
+
+}
+.span{
+  color: grey;
+}
+.head h1{
+  position: relative;
+  top: 14rem;
+  font-size: 7rem;
+}
+.head h2{
+  position: relative;
+  font-family: 'Satisfy', cursive;
+  top: 11rem;
+  font-size: 3.5rem;
+}
+.head img{
+  height: 25rem;
+  position: relative;
+  top: 12rem;
+}
+.nav{
+  position: relative;
+  right: 5rem;
+
+}
+.navigation li{
+  list-style: none;
+display: inline-block;
+margin: 1rem;
+font-size: 1.5rem;
+}
+.a1{
+  text-decoration: none;
+  color: white;
+}
+.a1:hover{
+  color: #8D8DAA;
+  text-decoration: underline;
+}
+.mybg{
+  padding: 2rem;
+  height: 80rem;
+   background-image: url("../images/antasbg.png");
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   background-attachment: fixed;
+   opacity: 0.8;
+}
+.mybg h1{
+  color: white;
+  /* opacity: 1; */
+font-family: 'Cantata One', serif;
+  position: relative;
+  top: 30rem;
+  right: 5rem;
+  width: 60%;
+  margin: auto;
+
+}
+
+.middle{
+  padding: 2.5rem;
+  background-image: url("../images/whitee.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+   background-size: cover;
+   background-attachment: fixed;
+   font-size: 1.7rem;
+     font-family: 'Jost', sans-serif;
+}
+
+.cd{
+  /* padding: 25px; */
+  width: 50%;
+  text-align: left;
+  line-height: 2rem;
+  margin: 10rem auto 10rem auto;
+
+}
+.code{
+  padding-right: 1.5rem;
+  /* margin-left: 200px; */
+  float: left;
+  height: 10rem;
+}
+.cd h3{
+color: #73777B;
+}
+.codechef{
+  text-decoration: none;
+}
+.codechef:hover{
+  color: white;
+}
+.badminton{
+  text-align: left;
+  line-height: 2rem;
+  width: 50%;
+  margin: 10rem auto;
+}
+.bad{
+  height: 10rem;
+  float: right;
+  margin-right: 8rem;
+}
+.badminton h3{
+  color: #73777B;
+}
+.history{
+  width: 50%;
+  text-align: left;
+  line-height: 2rem;
+  margin: 10rem auto 10rem auto;
+}
+.king{
+  float: left;
+  height: 10rem;
+  padding-right: 1.5rem;
+}
+.history h3{
+    color: #73777B;
+}
+.pics{
+    list-style: none;
+    /* display: inline-block; */
+}
+.pic{
+  height: 3rem;
+  list-style: none;
+  /* display: inline-block; */
+}
+.pics li{
+  display: inline-block;
+}
+/* .pics li a:hover{
+  color: white;
+} */
+
+.pic:hover{
+   transform: scale(1.3);
+   /* height: 40px; */
+}
+
+#mail{
+  border-radius: 50%;
+}
+.contact{
+  color: #F2F2F2;
+  padding: 1rem;
+  background-image: url("../images/darkbg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.pics{
+  padding: 1rem auto;
+  position: relative;
+  right: 1.5rem;
+}
+.pics li{
+  padding: .5rem 1rem .5rem 1rem;
+}
+p{
+  color: #524A4E;
+}
+
+
+@media (max-width:998px) {
+  html{
+    font-size: 55%;
+  }
+}
+
+@@media (max-width:768px) {
+  html{
+    font-size: 45%;
+  }
+
+}

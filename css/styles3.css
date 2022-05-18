@@ -1,0 +1,95 @@
+html{
+  font-size: 62.5%;
+}
+
+body{
+  margin: 0;
+  font-size: 1.7rem;
+}
+.head{
+  height: 55rem;
+  text-align: center;
+  font-family: 'Cantata One', serif;
+ color: white;
+  padding: 10rem;
+  background-image: url("../images/darktree.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: 'Jost', sans-serif;
+}
+.head h2{
+  margin-top: 15rem;
+}
+.navigation li{
+  list-style: none;
+  display: inline-block;
+  margin: 1rem;
+}
+.a1{
+  text-decoration: none;
+  color: white;
+}
+.nav{
+  position: relative;
+  bottom: 8rem;
+}
+.a1:hover{
+  color: #8D8DAA;
+  text-decoration: underline;
+}
+#pro{
+  color: #8D8DAA;
+  text-decoration: underline;
+}
+.middle{
+  padding: 8rem;
+  background-image: url("../images/wg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: 'Jost', sans-serif;
+}
+a:hover{
+  color: grey;
+  text-decoration: underline;
+}
+a{
+  text-decoration: none;
+  color: blue;
+}
+.p1,.p2{
+margin-left: 5rem;
+}
+
+footer{
+  padding: 5rem;
+  background-image: url("../images/bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: 'Jost', sans-serif;
+}
+footer h3{
+  font-family: 'Italianno', cursive;
+  text-align: center;
+  color: white;
+  font-size: 3.5rem;
+
+}
+
+@media (max-width:998px) {
+  html{
+    font-size: 55%;
+  }
+}
+
+@@media (max-width:768px) {
+  html{
+    font-size: 45%;
+  }
+
+}
